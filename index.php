@@ -1,5 +1,7 @@
 <?php
 
+    $page_name = "Home"
+
     include "/global/header.html";
 
 ?>

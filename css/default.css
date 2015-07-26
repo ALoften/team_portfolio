@@ -1,0 +1,31 @@
+/* ----- Defaults ----- */
+/* tags */
+html, body {margin:0px; padding:0px;}
+html, body, div, span, h1, h2, h3, h4, h5, h6, a, select, input, textarea, p, button {font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;}
+h1, h2, h3, h4, h5, h6 {font-size:inherit; font-weight:inherit; margin:none; padding:0px;}
+ul, li {list-style:none; margin:0px; padding:0px;}
+img {border:none; outline:none;}
+a {color:initial; text-decoration:none; display:inline-block;}
+p {margin:0px; padding:0px;}
+/* html5 patch for non supporting browsers */
+header, nav, section, article, figure, aside, main, menu, menuitem, footer {display:block; margin:0px;}
+
+/* quick styles */
+.center {text-align:center;}
+.left {text-align:left;}
+.hide {display:none;}
+.hover-hide:hover {display:none;}
+.clear {clear:both;}
+.no-bold {font-weight:inherit;}
+.no-margin {margin:0px;}
+.no-padding {padding:0px;}
+.underline {text-decoration:underline;}
+.bold {font-weight:bold;}
+.fix-width {box-sizing: border-box;}
+
+/* font colors */
+.red {color:red;}
+.blue {color:blue;}
+.green {color:green;}
+/* ----- End Defaults ----- */
+

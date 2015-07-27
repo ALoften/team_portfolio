@@ -21,7 +21,7 @@ header, nav, section, article, figure, aside, main, menu, menuitem, footer {disp
 .no-padding {padding:0px;}
 .underline {text-decoration:underline;}
 .bold {font-weight:bold;}
-.fix-width {box-sizing: border-box;}
+.fix-width {box-sizing: border-box; }
 
 /* font colors */
 .red {color:red;}

@@ -19,7 +19,7 @@
         </li>
         
         <li class="side-list">
-            Menu item 3
+            Menu item 3 test
         </li>
 
     </ul>

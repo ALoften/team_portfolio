@@ -12,6 +12,9 @@
 
 input[type=search] {color: gray; text-align: right; cursor: pointer; display: block; 
     width: 100%; letter-spacing: 4px; text-shadow: 0 0 2px black; word-spacing: 20px;}
+    
+.logo-icon img {height:124px;}
+.logo-icon {border-right:1px solid lightgray; border-bottom:1px solid lightgray;}
 
 /* ----- END GLOBALS ----- */
 

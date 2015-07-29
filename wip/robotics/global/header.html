@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<meta charset="utf-8">
+<!-- causes page to be viewable at proper scalable size with added zoom feature -->
+<meta name="viewport" content="width=device-width, user-scalable=yes">
+
+<!-- custom titles on a page by page basis -->
+<title>Whatever our site name is | <?php echo $page_name; ?></title>
+
+<!-- site description -->
+<meta name="description" content="Websites">
+
+<!-- site keywords -->
+<meta name="keywords" content="stuff">
+
+<!-- site author -->
+<meta name="author" content="Aaron and Krista">
+
+<!-- site language -->
+<meta http-equiv="Content-Language" content="en">
+
+<script>
+
+    //This section sets html5 elements to a browser without html5 recognition
+    document.createElement('menu');
+    document.createElement('menuitem');
+    document.createElement('header');
+    document.createElement('nav');
+    document.createElement('section');
+    document.createElement('article');
+    document.createElement('figure');
+    document.createElement('aside');
+    document.createElement('main');
+    document.createElement('footer');
+    //End
+    
+</script>
+
+<link rel='stylesheet' type='text/css' href='css/default.css'>
+<link rel='stylesheet' type='text/css' href='css/all.css'>
+<script src="/js/jquery/jquery-1.11.0.min.js"></script>
+<script src="/js/home.js"></script>
+</head>
+
+
+<body>
+
+<header class="header">
+
+    <a class="header-logo" href="/";>
+        <figure class="logo-icon">
+            <img src="poot">
+        </figure>
+    </a>
+
+    <nav class="header-menu">
+    
+        <a class="side-list">
+            Header item 1
+        </a>
+        
+        <a class="side-list">
+            Header item 2
+        </a>
+        
+        <a class="side-list">
+            Header item 3
+        </a>
+
+    </nav>
+    
+    <span class="search-box">
+        <input type=search results=5 autosave=some_unique_value name=s>
+    </span>
+
+</header>

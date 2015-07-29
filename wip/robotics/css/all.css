@@ -1,0 +1,38 @@
+/* ----- GLOBALS ----- */
+
+.header {position:relative; width:100%; float:left; text-align:center;}
+
+.header-logo {float:left;}
+
+.header-menu {position:absolute; left:-200px; width:400px; margin-left:50%;}
+
+.footer {position:relative; width:100%; float:left; text-align:center;}
+
+.search-box {float:right;}
+
+input[type=search] {color: gray; text-align: right; cursor: pointer; display: block; 
+    width: 100%; letter-spacing: 4px; text-shadow: 0 0 2px black; word-spacing: 20px;}
+
+/* ----- END GLOBALS ----- */
+
+
+/* ----- */
+
+
+/* ----- HOME PAGE ----- */
+
+
+/* ----- END HOME PAGE ----- */
+
+
+/* ----- */
+
+
+/* ----- SHARED ----- */
+
+.side-bar {position:fixed; right:0px; width:20%; min-width:110px; float:right; 
+    text-align:center;}
+
+.main-container {width:100%; min-width:440px; float:left; text-align:center;}
+
+/* ----- END SHARED ----- */

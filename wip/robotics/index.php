@@ -35,6 +35,24 @@
         </h1>
         <p>
             Blah blah blah
+            <br>
+            blah blah
+            <br>
+            blah blah blah
+            <br> Blah blah blah
+            <br>
+            blah blah
+            <br>
+            blah blah blah
+            <br> Blah blah blah
+            <br>
+            blah blah
+            <br>
+            blah blah blah
+            <br>
+            <figure class="gearIcon">
+                <img src="images/gear-icon-2.png">
+            </figure>
         </p>
     </section>
 

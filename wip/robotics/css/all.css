@@ -13,10 +13,22 @@
     }
 
 .headerMenu {
-    position:absolute;
-    left:-200px;
-    width:400px;
-    margin-left:50%;
+    position:relative;
+    left:-46px;
+    z-index:1;
+    text-align:center;
+    }
+    
+.header .sideList {
+    color:white;
+    font-family: fantasy;
+    font-size: 20px;
+    margin-left: 8px;
+    margin-right: 8px;
+    }
+    
+.headerMenu, .searchBox {
+    margin-top:20px;
     }
 
 .footer {
@@ -26,7 +38,12 @@
     text-align:center;
     }
 
-.searchBox {float:right;}
+.searchBox {
+    position:relative;
+    margin-right:20px;
+    float:right;
+    z-index:1;
+    }
 
 input[type=search] {
     color: gray;

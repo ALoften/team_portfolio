@@ -6,28 +6,28 @@
 
 ?>
 
-<aside class="sideBar home">
-    <p>
-        Sidebar
-    </p>
-    <ul class="sideMenu">
-    
-        <li class="sideList">
-            Menu item 1
-        </li>
-        
-        <li class="sideList">
-            Menu item 2
-        </li>
-        
-        <li class="sideList">
-            Menu item 3
-        </li>
-
-    </ul>
-</aside>
-
 <main class="mainContainer home">
+
+    <aside class="sideBar home">
+        <p>
+            Sidebar
+        </p>
+        <ul class="sideMenu">
+        
+            <li class="sideList">
+                Menu item 1
+            </li>
+            
+            <li class="sideList">
+                Menu item 2
+            </li>
+            
+            <li class="sideList">
+                Menu item 3
+            </li>
+
+        </ul>
+    </aside>
 
     <section class="newSection home">
         <h1 class="title">

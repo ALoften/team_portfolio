@@ -6,30 +6,30 @@
 
 ?>
 
-<aside class="side-bar home">
+<aside class="sideBar home">
     <p>
         Sidebar
     </p>
-    <ul class="side-menu">
+    <ul class="sideMenu">
     
-        <li class="side-list">
+        <li class="sideList">
             Menu item 1
         </li>
         
-        <li class="side-list">
+        <li class="sideList">
             Menu item 2
         </li>
         
-        <li class="side-list">
+        <li class="sideList">
             Menu item 3
         </li>
 
     </ul>
 </aside>
 
-<main class="main-container home">
+<main class="mainContainer home">
 
-    <section class="new-section home">
+    <section class="newSection home">
         <h1 class="title">
             HTML5
         </h1>
@@ -38,7 +38,7 @@
         </p>
     </section>
 
-    <section class="new-section home">
+    <section class="newSection home">
         <h1>
             Something else
         </h1>

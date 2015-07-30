@@ -1,20 +1,62 @@
 /* ----- GLOBALS ----- */
 
-.header {position:relative; width:100%; float:left; text-align:center;}
+.header {
+    position:relative;
+    width:100%;
+    background-color:chocolate;
+    float:left;
+    text-align:center;
+    }
 
-.header-logo {float:left;}
+.headerLogo {
+    float:left;
+    }
 
-.header-menu {position:absolute; left:-200px; width:400px; margin-left:50%;}
+.headerMenu {
+    position:absolute;
+    left:-200px;
+    width:400px;
+    margin-left:50%;
+    }
 
-.footer {position:relative; width:100%; float:left; text-align:center;}
+.footer {
+    position:relative;
+    width:100%;
+    float:left;
+    text-align:center;
+    }
 
-.search-box {float:right;}
+.searchBox {float:right;}
 
-input[type=search] {color: gray; text-align: right; cursor: pointer; display: block; 
-    width: 100%; letter-spacing: 4px; text-shadow: 0 0 2px black; word-spacing: 20px;}
+input[type=search] {
+    color: gray;
+    text-align: right;
+    cursor: pointer;
+    display: block; 
+    width: 100%;
+    letter-spacing: 4px;
+    text-shadow: 0 0 2px black;
+    word-spacing: 20px;
+    }
     
-.logo-icon img {height:124px;}
-.logo-icon {border-right:1px solid lightgray; border-bottom:1px solid lightgray;}
+.logoIcon img {
+    height:110px;
+    }
+    
+.logoIcon {
+    position:relative;
+    z-index:1;
+    }
+
+.headerBGColorSplit {
+    position: absolute;
+    top: 0px;
+    height: 60%;
+    box-sizing: border-box;
+    background-color: black;
+    width: 100%;
+    border-bottom: 4px solid white;
+    }
 
 /* ----- END GLOBALS ----- */
 
@@ -33,9 +75,20 @@ input[type=search] {color: gray; text-align: right; cursor: pointer; display: bl
 
 /* ----- SHARED ----- */
 
-.side-bar {position:fixed; right:0px; width:20%; min-width:110px; float:right; 
-    text-align:center;}
+.sideBar {
+    position:fixed;
+    right:0px;
+    width:20%;
+    min-width:110px;
+    float:right; 
+    text-align:center;
+    }
 
-.main-container {width:100%; min-width:440px; float:left; text-align:center;}
+.mainContainer {
+    width:100%; 
+    min-width:440px;
+    float:left;
+    text-align:center;
+    }
 
 /* ----- END SHARED ----- */

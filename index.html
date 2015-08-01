@@ -31,7 +31,7 @@
 						<li><a data-scroll href='#OurWork'>Our Work</a></li>
 						<li><a data-scroll href='#WhatWeDo'>Our Services</a></li>
 						<li><a data-scroll href='#whatWeDo'>About</a></li>
-						<li><a data-scroll href='#home'><span class='fa fa-arrow-up'></span></a></li>
+                        <li><a data-scroll href='#home'><span class='fa fa-arrow-up'></span></a></li>
 					</ul>
 				</nav>
 				
@@ -39,6 +39,8 @@
 		</div>
 	</div>
 </header>
+    <div class="bannerBacking">
+    </div>
 	<div id="banner">
 		<!-- Jssor Slider Begin -->
 		<!-- To move inline styles to css file/block, please specify a class name for each element. --> 
@@ -220,6 +222,23 @@
     <!-- jssor.slider.mini.js = (jssor.js + jssor.slider.js) -->
     <script type="text/javascript" src="js/jssor.slider.mini.js"></script>
  <script>
+ 
+        $(document).ready(function(){
+            windowSizeCheck();
+        });
+        
+        $(window).resize(function(){
+            windowSizeCheck();
+        });
+        
+        function windowSizeCheck(){
+            if($(window).width() <= 770){
+                $(".group").addClass("hide");
+            }else{
+                $(".group").removeClass("hide");
+            }
+        }
+ 
         jQuery(document).ready(function ($) {
 
             var options = {

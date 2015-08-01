@@ -48,6 +48,10 @@ body {
     clear:both;
 }
 
+.hide {
+    display:none;
+}
+
 /*----------------------------------------
     GLOBAL BODY TEXT STYLES
 ----------------------------------------*/
@@ -157,8 +161,13 @@ a:hover img {
 header {
 	/*height: 100px;*/
 	position: fixed;
+    top:0px;
 	width: 100%;
 	z-index: 100;
+}
+.bannerBacking{
+    height:52px;
+    background: #222;
 }
 #logo {
 	float: left;
@@ -167,7 +176,7 @@ header {
 #navbar {
 	height: 53px;
 	opacity: 0.85;
-	background: #222;
+	background: rgba(34, 34, 34, 0.85);
 }
 /*----------------------------------------	
     MAIN NAVIGATION PAGE STYLES
@@ -209,6 +218,7 @@ nav ul li:hover {
 	height: auto;
 	background-color: #222;
 }
+
 #bannerLeft {
 	float: left;
 	width: 55%;

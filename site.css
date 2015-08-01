@@ -43,6 +43,11 @@ body {
 	clear: both;
 	visibility: hidden;
 	}
+    
+.clear {
+    clear:both;
+}
+
 /*----------------------------------------
     GLOBAL BODY TEXT STYLES
 ----------------------------------------*/
@@ -249,9 +254,9 @@ nav ul li:hover {
 	padding: 0.8%
 }
 .phx img {
-	width: 18%;
+	height: 210px;
 	float: left;
-	padding: 0 50px;
+	padding: 0 50px 15px;
 }
 /*----------------------------------------
     OurWork

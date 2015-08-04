@@ -29,26 +29,28 @@
         </ul>
     </aside>
 
-    <section class="newSection home">
+    <section class="newSection clear home" id="mechanics">
         <h1 class="title">
-            HTML5
+            MECHANICS
         </h1>
         <p>
-            Blah blah blah
+            When you need a product that's reliable for an affordable cost, 
+            Gearspin&#174; is always the right choice.
             <br>
-            blah blah
+            Gearspin&#174; mechanics use only the best quality alloy metals
+            in all our designs. With our large variety of customizable metal 
+            formulas, Gearspin&#174; has the ability to match most levels of 
+            heat and frost with a durable product made for rugged environments.
             <br>
-            blah blah blah
-            <br> Blah blah blah
+            Created in the United States of America, you can count on the 
+            quality you expect and need with a robotics firm.
             <br>
-            blah blah
+            Whether its meant for flippin' burgers or surgically removing a 
+            splinter from the palm of an injured patient, our versatile engineers 
+            will help to create the perfect robotic solution for you and your 
+            business.
             <br>
-            blah blah blah
-            <br> Blah blah blah
-            <br>
-            blah blah
-            <br>
-            blah blah blah
+            
             <br>
             <figure class="gearIcon">
                 <img src="images/gear-icon-2.png">

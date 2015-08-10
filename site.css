@@ -29,6 +29,12 @@ body {
     font-family: 'fonts/lane_-_narrowregular';
     font-weight: bold;
 }
+	background: #fff;
+	color: #222;
+	margin: 0;
+    font-family: 'fonts/lane_-_narrowregular', Tahoma;
+	font-weight: bold;
+	}
 .container {
     width: 76%;
     margin: 0 auto;
@@ -79,6 +85,9 @@ a:hover h3 {
 #content {
 
 }
+.content {
+	padding-top: 50px;
+}
 .button {
     border: solid #FF6600 2px;
     font-size: 1.3em;
@@ -91,6 +100,17 @@ a:hover h3 {
     font-family: 'fonts/lane_-_narrowregular';
     font-weight: bold;
     transition: all .2s ease-in-out;
+	border: solid #FF6600 2px;
+	font-size: 1.3em;
+	color: #FF6600;
+	padding: 15px;
+	clear: both;
+	float: right;
+	background: none;
+	margin-top: 10px;
+	font-family: 'fonts/lane_-_narrowregular', Tahoma;
+	font-weight: bold;
+	transition: all .2s ease-in-out;
 }
 .button:hover {
     border: solid #222 2px;
@@ -311,6 +331,16 @@ nav ul li:hover {
     display:inline-block;
     padding: 0.8%
 }
+.serviceDetail {
+	padding: 20px;
+	height: 300px;
+}
+.serviceDetail .left, .serviceDetail .right {
+	width: 50%;
+}
+.serviceDetail h3 {
+	text-align: center;
+}
 .phx img {
     height: 210px;
     float: left;
@@ -419,6 +449,13 @@ footer {
     text-align: center;
     background: #222;
     color: #fff;
+	height: 60px;
+	font-size: 0.9em;
+	padding-top: 10px;
+	text-align: center;
+	background: #222;
+	color: #fff;
+	clear: both;
 }
 footer p {
     color: #fff;

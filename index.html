@@ -25,20 +25,30 @@
                 <div id="logo">
                     <h1>Code <span class='orange'>Dive</span></h1>
                 </div>
-                <nav class="group">
+                <div class="menuLines">
+                    <hr>
+                    <hr>
+                    <hr>
+                </div>
+                <div class="mobileClose hide">
+                    X
+                </div>
+                <nav class="group navbarSection">
                     <ul>
                         <li><a data-scroll href='#contact'>Contact</a></li>
                         <li><a data-scroll href='#OurWork'>Our Work</a></li>
                         <li><a data-scroll href='#WhatWeDo'>Our Services</a></li>
                         <li><a data-scroll href='#whatWeDo'>About</a></li>
-                        <li><a data-scroll href='#home'><span class='fa fa-arrow-up'></span></a></li>
+                        <li class="fullTop"><a data-scroll href='#home'><span class='fa fa-arrow-up'></span></a></li>
                     </ul>
                 </nav>
-                
             </div>
         </div>
     </div>
 </header>
+
+    <a data-scroll class="topLink hide" href='#home'>Back to Top</a>
+
     <div class="bannerBacking">
     </div>
     <div id="banner">
@@ -233,11 +243,18 @@
         
         function windowSizeCheck(){
             if($(window).width() <= 770){
-                $(".group").addClass("hide");
+                $(".navbarSection, .fullTop, .mobileClose").addClass("hide");
+                $(".topLink").removeClass("hide");
             }else{
-                $(".group").removeClass("hide");
+                $(".navbarSection, .fullTop").removeClass("hide mobileMenuExpanded");
+                $(".topLink").addClass("hide");
             }
         }
+        
+        $(".menuLines, .mobileClose").click(function(){
+            $(".menuLines, .mobileClose").toggleClass("hide");
+            $(".navbarSection").toggleClass("hide mobileMenuExpanded");
+        });
  
         jQuery(document).ready(function ($) {
 

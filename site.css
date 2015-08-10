@@ -209,7 +209,55 @@ nav ul li:hover {
     height: 40px;
     margin-top: -5px;
     text-decoration: none;
-}    
+}
+
+.menuLines {
+    position:relative;
+    left:24px;
+    width:30px;
+    padding-top:2px;
+    float:right;
+    cursor:pointer;
+}
+
+.menuLines hr{
+    border:0px;
+    border-bottom:1px solid white;
+    margin:0px;
+    margin-top:10px;
+}
+
+.mobileMenuExpanded {
+    background-color:black;
+    float:none;
+    text-align:center;
+    width:100%;
+    position:relative;
+    display:inline-block;
+}
+
+.mobileMenuExpanded ul {
+    text-align:center;
+}
+
+.mobileMenuExpanded ul li {
+    float:none;
+}
+
+.mobileClose {
+    position:relative;
+    top:10px;
+    left:24px;
+    width:30px;
+    color:white;
+    background-color:dimgray;
+    font-size:30px;
+    padding-top:2px;
+    float:right;
+    cursor:pointer;
+    text-align:center;
+}
+
 /*  ----------------------------------------
     Carousel Area
 ----------------------------------------*/
@@ -335,6 +383,32 @@ input:focus {
     width: 231px;
     margin: 0 auto;
 }
+
+/*----------------------------------------
+    SPECIAL PAGE ITEM STYLES
+----------------------------------------*/
+
+.topLink {
+    position:fixed;
+    bottom:0px;
+    left:-50px;
+    width:104px;
+    height:28px;
+    font-size:18px;
+    line-height:28px;
+    background-color:black;
+    margin-left:50%;
+    text-align:center;
+    opacity: 0.7;
+    z-index:10;
+}
+
+.topLink:hover {
+    color:white;
+    opacity: 1;
+}
+
+
 /*----------------------------------------
     FOOTER PAGE STYLES
 ----------------------------------------*/

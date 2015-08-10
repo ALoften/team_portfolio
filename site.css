@@ -23,12 +23,6 @@ img {
     font-style: normal;
 }
 body {
-    background: #fff;
-    color: #222;
-    margin: 0;
-    font-family: 'fonts/lane_-_narrowregular';
-    font-weight: bold;
-}
 	background: #fff;
 	color: #222;
 	margin: 0;
@@ -89,17 +83,6 @@ a:hover h3 {
 	padding-top: 50px;
 }
 .button {
-    border: solid #FF6600 2px;
-    font-size: 1.3em;
-    color: #FF6600;
-    padding: 15px;
-    clear: both;
-    float: right;
-    background: none;
-    margin-top: 10px;
-    font-family: 'fonts/lane_-_narrowregular';
-    font-weight: bold;
-    transition: all .2s ease-in-out;
 	border: solid #FF6600 2px;
 	font-size: 1.3em;
 	color: #FF6600;
@@ -443,12 +426,6 @@ input:focus {
     FOOTER PAGE STYLES
 ----------------------------------------*/
 footer {
-    height: 60px;
-    font-size: 0.9em;
-    padding-top: 10px;
-    text-align: center;
-    background: #222;
-    color: #fff;
 	height: 60px;
 	font-size: 0.9em;
 	padding-top: 10px;

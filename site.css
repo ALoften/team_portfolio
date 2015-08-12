@@ -366,6 +366,8 @@ input:focus {
 #contactForm {
     width: 70%; /* 50px */
     float: left;
+    box-sizing:border-box;
+    padding-right:14px;
 }
 #name, #email, #comment{
     width: 96%;
@@ -390,6 +392,8 @@ input:focus {
     width: 28%; /* 48px */
     border-left: solid 1px #222;
     height: 383px;
+    box-sizing:border-box;
+    padding-left:6px;
 }
 #contactInfo p {
     line-height: 15px;

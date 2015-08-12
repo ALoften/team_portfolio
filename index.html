@@ -20,7 +20,7 @@
 <header>
     <div id="navbar">
         <div id="top"></div>
-        <div class="container">
+        <div class="container headerContainerContainer">
             <div id="headerContainer">
                 <div id="logo">
                     <h1>Code <span class='orange'>Dive</span></h1>
@@ -384,11 +384,13 @@
         function windowSizeCheck(){
             if($(window).width() <= 770){
                 $(".navbarSection, .fullTop, .mobileClose").addClass("hide");
-                $(".topLink").removeClass("hide");
+                $(".topLink, .menuLines").removeClass("hide");
+                $(".headerContainerContainer").addClass("fullWidth");
             }else{
                 $(".navbarSection, .fullTop").removeClass("hide mobileMenuExpanded");
-                $(".topLink").addClass("hide");
-            }
+                $(".topLink, .menuLines").addClass("hide");
+                $(".headerContainerContainer").removeClass("fullWidth");
+                }
         }
         
         $(".menuLines, .mobileClose").click(function(){

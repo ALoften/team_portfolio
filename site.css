@@ -52,6 +52,10 @@ body {
     display:none;
 }
 
+.fullWidth{
+    width:100%;
+}
+
 /*----------------------------------------
     GLOBAL BODY TEXT STYLES
 ----------------------------------------*/
@@ -216,7 +220,7 @@ nav ul li:hover {
 
 .menuLines {
     position:relative;
-    left:24px;
+    left:-15px;
     width:30px;
     padding-top:2px;
     float:right;
@@ -250,7 +254,7 @@ nav ul li:hover {
 .mobileClose {
     position:relative;
     top:10px;
-    left:24px;
+    left:-15px;
     width:30px;
     color:white;
     background-color:dimgray;

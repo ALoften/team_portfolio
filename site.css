@@ -328,6 +328,16 @@ nav ul li:hover {
 .serviceDetail h3 {
 	text-align: center;
 }
+.serviceDetail {
+	padding: 20px;
+	height: 300px;
+}
+.serviceDetail .left, .serviceDetail .right {
+	width: 50%;
+}
+.serviceDetail h3 {
+	text-align: center;
+}
 .phx img {
     height: 210px;
     float: left;

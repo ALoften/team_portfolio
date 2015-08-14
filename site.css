@@ -52,6 +52,10 @@ body {
     display:none;
 }
 
+.fullWidth{
+    width:100%;
+}
+
 /*----------------------------------------
     GLOBAL BODY TEXT STYLES
 ----------------------------------------*/
@@ -216,7 +220,7 @@ nav ul li:hover {
 
 .menuLines {
     position:relative;
-    left:24px;
+    left:-15px;
     width:30px;
     padding-top:2px;
     float:right;
@@ -250,7 +254,7 @@ nav ul li:hover {
 .mobileClose {
     position:relative;
     top:10px;
-    left:24px;
+    left:-15px;
     width:30px;
     color:white;
     background-color:dimgray;
@@ -372,6 +376,8 @@ input:focus {
 #contactForm {
     width: 70%; /* 50px */
     float: left;
+    box-sizing:border-box;
+    padding-right:14px;
 }
 #name, #email, #comment{
     width: 96%;
@@ -396,6 +402,8 @@ input:focus {
     width: 28%; /* 48px */
     border-left: solid 1px #222;
     height: 383px;
+    box-sizing:border-box;
+    padding-left:6px;
 }
 #contactInfo p {
     line-height: 15px;

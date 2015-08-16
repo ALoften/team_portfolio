@@ -114,6 +114,14 @@
             <div id="WhatWeDo" class='group'>
                 <div class='services group'>
                     <h2>Our Services</h2>
+                    <!-- Arrow Left -->
+                    <span class="servicesArrowLeft sliderArrows">
+                        <img src="/images/img/home/left-arrow-small.png">
+                    </span>
+                    <!-- Arrow Right -->
+                    <span class="servicesArrowRight sliderArrows">
+                        <img src="/images/img/home/right-arrow-small.png">
+                    </span>
                     <div class="manualSlider">
                         <div class='serv'>
                             <a href='#'>
@@ -237,8 +245,8 @@
         
             windowSizeCheck();
             //Check viewport size and respond properly            
-/*            
-            $("button").click(function () {
+            
+            $(".sliderArrows").click(function () {
             //Slider code
             
                 var sliderSpeed = 500;
@@ -250,12 +258,12 @@
                 //The actual sliding of the sections
                 
                 setTimeout(function(){ 
-                    $(".manualSlider .serv:eq(0)").remove().appendTo(".manualSlider");
+                    $(".manualSlider .serv:eq(0)").remove().appendTo(".manualSlider").css("right", "0px");
                 }, sliderSpeed);
                 //pushes the first item to the end
 
             });
- */           
+            
         });
         
         $(window).resize(function(){

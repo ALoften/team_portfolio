@@ -252,15 +252,16 @@
                 var sliderSpeed = 500;
                 //Set the slider speed in milliseconds
 
-                $(".manualSlider .serv").each(function(){
-                   $(this).animate({right: "+=100"}, sliderSpeed); 
-                });
-                //The actual sliding of the sections
-                
-                setTimeout(function(){ 
-                    $(".manualSlider .serv:eq(0)").remove().appendTo(".manualSlider").css("right", "0px");
-                }, sliderSpeed);
+                //$(".manualSlider .serv").each(function(){
+                   $(".manualSlider .serv:eq(0)").animate({width: "0"}, sliderSpeed, function(){ 
+                    //boom();
+                    });
+                //});
                 //pushes the first item to the end
+                function boom(){
+                    $(".manualSlider .serv:eq(0)").remove().appendTo(".manualSlider");
+                    $(".manualSlider .serv").css("right", "0px");
+                }
 
             });
             

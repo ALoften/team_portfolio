@@ -313,10 +313,12 @@ nav ul li:hover {
     text-align: center;
 }
 .serv {
+    position:relative;
     width: 23%;
     min-width:150px;
     display:inline-block;
-    padding: 0.8%
+    padding: 0.8%;
+    overflow:hidden;
 }
 .serviceDetail {
 	padding: 20px;

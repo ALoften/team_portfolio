@@ -10,6 +10,9 @@
 <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
 <link rel="stylesheet" href="css/slider.css">
 <script src="js/smooth-scroll.js"></script>
+        <!-- <link rel="stylesheet" type="text/css" href="css/demo.css" /> -->
+        <!-- <link rel="stylesheet" type="text/css" href="css/style.css" /> -->
+<script type="text/javascript" src="js/modernizr.custom.29473.js"></script>
 	<!-- HTML5 Shim for IE -->
 	<!--[if IE]>
 		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -23,14 +26,16 @@
 		<div class="container">
 			<div id="headerContainer">
 				<div id="logo">
-					<h1>Code <span class='orange'>Dive</span></h1>
+                    <a href="index.html">
+                        <h1>Code <span class='orange'>Dive</span></h1>
+                    </a>
 				</div>
 				<nav class="group">
 					<ul>
-						<li><a data-scroll href='#contact'>Contact</a></li>
-						<li><a data-scroll href='#OurWork'>Our Work</a></li>
-						<li><a data-scroll href='#WhatWeDo'>Our Services</a></li>
-						<li><a data-scroll href='#whatWeDo'>About</a></li>
+						<li><a data-scroll href='index.html#contact'>Contact</a></li>
+						<li><a data-scroll href='index.html#OurWork'>Our Work</a></li>
+						<li><a data-scroll href='index.html#WhatWeDo'>Our Services</a></li>
+						<li><a data-scroll href='index.html#whatWeDo'>About</a></li>
 						<li><a data-scroll href='#home'><span class='fa fa-arrow-up'></span></a></li>
 					</ul>
 				</nav>
@@ -40,14 +45,142 @@
 	</div>
 </header>
 <div class='content'>
-<h2>Our Services</h2>
-	<div class='serviceDetail'>
+    <div class="banner">
+        
+    </div>
+    <div class="bg">
+		<div class="container">
+			<div id="WhatWeDo" class='group'>
+				<div class='services group'>
+					<h2>Our Services</h2>
+					<div class='serv'>
+						<a data-scroll href='#BasicWebLayouts'>
+							<img src='images/img/web-layouts.png' alt='something' />
+							<h3>Basic Web Layouts</h3>
+						</a>
+					</div>
+					<div class='serv'>
+						<a data-scroll href='#ResponsiveWebsites'>
+							<img src='images/img/responsive-websites.png' alt='something' />
+							<h3>Responsive Websites</h3>
+						</a>
+					</div>
+					<div class='serv'>
+						<a data-scroll href='#WPDevelopment'>
+							<img src='images/img/wordpress-dev.png' alt='something' />
+							<h3>WP Development</h3>
+						</a>
+					</div>
+					<div class='serv'>
+						<a data-scroll href='#GoogleAnalytics'>
+							<img src='images/img/google-analytics.png' alt='something' />
+							<h3>Google Analytics</h3>
+						</a>
+					</div>
+				</div><!-- end #services -->
+			</div> <!-- end #WhatWeDo -->
+		</div> <!-- end .container -->
+    </div><!-- end .bg -->
+    
+<section class="ac-container">
+              
+				<div id="BasicWebLayouts" class="serviceDetail group">
+                    <div class="container">
+					<input id="ac-1" name="accordion-1" type="checkbox" checked />
+                        <h3><!-- <img src='images/img/web-layouts.png' alt='something' />--><label for="ac-1">Basic Web Layouts</label></h3>
+                        
+                        <article class="ac-large right img group">
+                            <img src='images/img/web-layouts.png' alt="Web Layouts" />
+                        </article>
+                        <article class="ac-large left">
+                            <p>Basic web development to get your business out there.</p>
+                            <ul>
+                                <li>Lorem ipsum dolor sit amet</li>
+                                <li>Consectetur adipiscing elit. Curabitur iaculis convallis tristique.</li>
+                                <li>Nullam semper, purus eget semper dapibus, ante risus</li>
+                                <li>finibus nisi, quis pretium elit nibh vel dolor. Maecenas dui enim</li>
+                                <li>tempus eu nisi vitae.</li>
+                            </ul>
+                        </article>
+                    </div>
+				</div>
+                <div class='arrow-down'></div>
+				<div id="ResponsiveWebsites" class="serviceDetail bg group">
+                    <div class="container">
+                        <input id="ac-2" name="accordion-1" type="checkbox" />
+                        <h3><label for="ac-2">Responsive Websites</label></h3>
+                        <article class="ac-large left group">
+                            <p>'Mobile First' design allows you to reach your clients without worying about platform or device.</p>
+                            <ul>
+                                <li>Lorem ipsum dolor sit amet</li>
+                                <li>Consectetur adipiscing elit. Curabitur iaculis convallis tristique.</li>
+                                <li>Nullam semper, purus eget semper dapibus, ante risus</li>
+                                <li>finibus nisi, quis pretium elit nibh vel dolor. Maecenas dui enim</li>
+                                <li>tempus eu nisi vitae.</li>
+                            </ul>
+                        </article>
+                        <article class="ac-large right img group">
+                            <img src='images/img/responsive-websites.png' alt="Web Layouts" />
+                        </article>
+                    </div>
+				</div>
+				<div id="WPDevelopment" class="serviceDetail group">
+                    <div class="container">
+                        <input id="ac-3" name="accordion-1" type="checkbox" />
+                        <h3><label for="ac-3">WordPress Development</label></h3>
+                        <article class="ac-large left img">
+                            <img src='images/img/wordpress-dev.png' alt="Web Layouts" />
+                        </article>
+                        <article class="ac-large right">
+                            <p>Update your website with ease using Wordpress, one of the most user-friendly content management systems available.</p>
+                            <ul>
+                                <li>Lorem ipsum dolor sit amet</li>
+                                <li>Consectetur adipiscing elit. Curabitur iaculis convallis tristique.</li>
+                                <li>Nullam semper, purus eget semper dapibus, ante risus</li>
+                                <li>finibus nisi, quis pretium elit nibh vel dolor. Maecenas dui enim</li>
+                                <li>tempus eu nisi vitae.</li>
+                            </ul>
+                        </article>
+                    </div>
+				</div>
+                <div class='arrow-down'></div>
+				<div id="GoogleAnalytics" class="serviceDetail bg group">
+                    <div class="container">
+                        <input id="ac-4" name="accordion-1" type="checkbox" />
+                        <h3><label for="ac-4">Google Analytics</label></h3>
+                        <article class="ac-large left">
+                            <p>Track and analyze how users are finding, interacting, and accessing your website and see what you could be doing better. </p>
+                            <ul>
+                                <li>Lorem ipsum dolor sit amet</li>
+                                <li>Consectetur adipiscing elit. Curabitur iaculis convallis tristique.</li>
+                                <li>Nullam semper, purus eget semper dapibus, ante risus</li>
+                                <li>finibus nisi, quis pretium elit nibh vel dolor. Maecenas dui enim</li>
+                                <li>tempus eu nisi vitae.</li>
+                            </ul>
+                        </article>
+                        <article class="ac-large right img">
+                            <img src='images/img/google-analytics.png' alt="Web Layouts"/>
+                        </article>
+                    </div>
+				</div>
+			</section>
+    
+        <section class="contactCallout group">
+            <div class='fixit'>
+            <a href='index.html#contact' class='button'>Contact Us <span class='fa fa-chevron-right'></span></a>
+            </div>
+        </section>
+    
+    
+   <!-- 
+	<div id="BasicWebLayouts" class='serviceDetail'>
 		<div class='container'>
 			<h3>Basic Web Layouts</h3>
-			<div class='left'>
+			<div class='left img'>
 				<img src='images/img/web-layouts.png' alt="Web Layouts" />
 			</div>
-			<div>
+			<div class="right cont">
+                <p>Basic web development to get your business out there. </p>
 				<ul>
 					<li>Lorem ipsum dolor sit amet</li>
 					<li>Consectetur adipiscing elit. Curabitur iaculis convallis tristique.</li>
@@ -59,10 +192,11 @@
 		</div>
 	</div>
 	<div class='arrow-down'></div>
-	<div class='serviceDetail bg'>
+	<div id="ResponsiveWebsites" class='serviceDetail bg'>
 		<div class='container'>
 			<h3>Responsive Websites</h3>
-			<div class='left'>
+			<div class="left cont">
+                <p>'Mobile First' design allows you to reach your clients without worying about platform or device.</p>
 				<ul>
 					<li>Lorem ipsum dolor sit amet</li>
 					<li>Consectetur adipiscing elit. Curabitur iaculis convallis tristique.</li>
@@ -71,18 +205,19 @@
 					<li>tempus eu nisi vitae.</li>
 				</ul>
 			</div>
-			<div>
+			<div class="right img">
 				<img src='images/img/responsive-websites.png' alt="Web Layouts" />
 			</div>
 		</div>
 	</div>
-	<div class='serviceDetail'>
+	<div id="WPDevelopment" class='serviceDetail'>
 		<div class='container'>
 			<h3>Wordpress Development</h3>
-			<div class='left'>
+			<div class="left img">
 				<img src='images/img/wordpress-dev.png' alt="Web Layouts" />
 			</div>
-			<div>
+			<div class="right cont">
+                <p>Update your website with ease using Wordpress, one of the most user-friendly content management systems available.</p>
 				<ul>
 					<li>Lorem ipsum dolor sit amet</li>
 					<li>Consectetur adipiscing elit. Curabitur iaculis convallis tristique.</li>
@@ -94,10 +229,11 @@
 		</div>
 	</div>
 	<div class='arrow-down'></div>
-	<div class='serviceDetail bg'>
+	<div id="GoogleAnalytics" class='serviceDetail bg'>
 		<div class='container'>
 			<h3>Google Analytics</h3>
-			<div class='left'>
+			<div class="left cont">
+                <p>Track and analyze how users are finding, interacting, and accessing your website and see what you could be doing better. </p>
 				<ul>
 					<li>Lorem ipsum dolor sit amet</li>
 					<li>Consectetur adipiscing elit. Curabitur iaculis convallis tristique.</li>
@@ -106,12 +242,12 @@
 					<li>tempus eu nisi vitae.</li>
 				</ul>
 			</div>
-			<div>
+			<div class="right img">
 				<img src='images/img/google-analytics.png' alt="Web Layouts"/>
 			</div>
 		</div>
 	</div>
-</div> <!-- end .content -->
+</div> --> <!-- end .content -->
 <footer>
 	<div class='container'>
 		<div class='left'>
@@ -121,4 +257,9 @@
 			<p><a data-scroll href='#whatWeDo'>About</a> | <a data-scroll href='#OurWork'>Our Work</a> | <a data-scroll href='#WhatWeDo'>Services</a> | <a data-scroll href='#contact'>Contact</a></p>
 		</div>
 	</div>
-</footer> 
+</footer>
+<script>
+    smoothScroll.init();
+</script> 
+</body>
+</html>

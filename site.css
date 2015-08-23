@@ -207,13 +207,17 @@ nav ul li:hover {
 	height: auto;
 	background-color: #222;
 }
+.banner2 {
+    background: url(images/img/tech.jpg) center no-repeat;
+    background-size: cover;
+}
 #bannerLeft {
 	float: left;
 	width: 55%;
 	height: auto;
 	text-align: center;
 }
-#bannerLeft img {
+#bannerLeft img, #bannerLeft p {
 	width: 50%;
 	height: auto;
 }
@@ -261,15 +265,25 @@ nav ul li:hover {
 .services h2 {
     padding: 10px 0;
 }
+
+.services a.anchor {
+    display: block;
+    position: relative;
+    top: -53px;
+    visibility: none;
+}
+
 .banner {
     background: url(images/img/notes.jpg) center no-repeat;
     background-size: cover;
     height: 300px;
 }
 .serviceDetail h3 {
-	text-align: center;
+	/*text-align: center;*/
     margin: 0;
     height: 80px;
+    padding-top: 53px;
+    margin-top: -53px;
 }
 .serviceDetail h3 img {
         width: 8%;
@@ -318,6 +332,15 @@ nav ul li:hover {
 		0px 0px 0px 1px rgba(155,155,155,0.3), 
 		0px 2px 2px rgba(0,0,0,0.1);
 }
+
+.ac-container input  + h3 label {
+    background: url(images/img/arrowLeft.png) no-repeat center right;
+    background-size: 30px;
+}
+.ac-container input:checked + h3 label {
+    background: transparent url(images/img/arrowDown.png) no-repeat center right;
+    background-size: 30px;  
+}
 .ac-container label:hover:after,
 .ac-container input:checked + label:hover:after{
 	content: '';
@@ -326,11 +349,10 @@ nav ul li:hover {
 	height: 24px;
 	right: 13px;
 	top: 7px;
-	background: transparent url(../images/arrow_down.png) no-repeat center center;	
 }
-.ac-container input:checked + label:hover:after{
-	background-image: url(../images/arrow_up.png);
-}
+/*.ac-container input:checked + label:hover:after{
+	background-image: url(images/img/arrow.png);
+}*/
 .ac-container input{
 	display: none;
 }
@@ -367,7 +389,7 @@ nav ul li:hover {
     clear: both;
     text-align: center;
     margin: 0 auto;
-    background: url(images/img/keyboard.jpg) center no-repeat;
+    background: url(images/img/tech.jpg) center no-repeat;
     background-size: cover;
     height: 200px;
     opacity: 0.75;
@@ -419,20 +441,32 @@ input:focus {
 }
 #contactForm {
 	width: 70%; /* 50px */
-	float: left;
+	margin: 0 auto;
 }
-#name, #email, #comment{
+#name, #email, #comment, #business, #services {
 	width: 96%;
 	border-radius: 2px;
 	background-color: #fff;
 	border: solid 1px #FF6600;
 	margin: 5px;
+    height: 40px;
 }
-#name, #email {
+#business, #services {
+    width: 47%;
+}
+#services {
+    height: 51px;
+    padding: 5px;
+    font-size: 1em;
+	font-family: sans-serif;
+}
+/*
+#name, #email, #business, {
 	height: 40px;
-}
+}*/
 #comment {
 	max-width: 96%;
+    height: 100px;
 }
 .success {
 	font-size: 1.4em;

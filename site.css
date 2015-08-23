@@ -235,12 +235,13 @@ nav ul li:hover {
 }
 
 .mobileMenuExpanded {
-    background-color:black;
+    background-color: rgba(36,36, 36, 0.85);
     float:none;
     text-align:center;
     width:100%;
     position:relative;
     display:inline-block;
+    top:2px;
 }
 
 .mobileMenuExpanded ul {
@@ -313,148 +314,15 @@ nav ul li:hover {
     text-align: center;
 }
 .serv {
-    width: 23%;
+    width: 200px;
     min-width:150px;
     display:inline-block;
-    padding: 0.8%
+    padding: 0.8%;
+    margin-left:10px;
+    margin-right:10px;
+    box-sizing:border-box;
 }
-.phx img {
-	width: 18%;
-	float: left;
-	padding: 0 50px;
-}
-/*----------------------------------------
-    SERVICES PAGE
-----------------------------------------*/
-.services h2 {
-    padding: 10px 0;
-}
-.banner {
-    background: url(images/img/notes.jpg) center no-repeat;
-    background-size: cover;
-    height: 300px;
-}
-.serviceDetail h3 {
-	text-align: center;
-    margin: 0;
-    height: 80px;
-}
-.serviceDetail h3 img {
-        width: 8%;
-    float: left;
-}
-.serviceDetail h3:hover {
-    color: #FF6600;
-}
-.serviceDetail {
-    padding: 20px;
-}
-.serviceDetail .cont {
-    text-align: left;
-}
-.serviceDetail .img {
-    text-align: center;
-}
-.serviceDetail .img img {
-    width: 35%;
-}
-.serviceDetail .left, .serviceDetail .right {
-	width: 50%;
-}
-.container {
-    width: 76%;
-	margin: 0 auto;
-}
-.ac-container label{
-	position: relative;
-	z-index: 20;
-	display: block;
-	    height: auto;
-	cursor: pointer;
-	line-height: 80px;
-    
-}
-.ac-container label:hover{
-	/*background: #fff;*/
-}
-.ac-container input:checked + label,
-.ac-container input:checked + label:hover{
-	background: #c6e1ec;
-	color: #3d7489;
-	text-shadow: 0px 1px 1px rgba(255,255,255, 0.6);
-	box-shadow: 
-		0px 0px 0px 1px rgba(155,155,155,0.3), 
-		0px 2px 2px rgba(0,0,0,0.1);
-}
-.ac-container label:hover:after,
-.ac-container input:checked + label:hover:after{
-	content: '';
-	position: absolute;
-	width: 24px;
-	height: 24px;
-	right: 13px;
-	top: 7px;
-	background: transparent url(../images/arrow_down.png) no-repeat center center;	
-}
-.ac-container input:checked + label:hover:after{
-	background-image: url(../images/arrow_up.png);
-}
-.ac-container input{
-	display: none;
-}
-.ac-container article{
-	background: transparent;
-	margin-top: -1px;
-	overflow: hidden;
-	height: 0px;
-	position: relative;
-	z-index: 10;
-	-webkit-transition: height 0.3s ease-in-out;
-	-moz-transition: height 0.3s ease-in-out;
-	-o-transition: height 0.3s ease-in-out;
-	-ms-transition: height 0.3s ease-in-out;
-	transition: height 0.3s ease-in-out;
-}
-.ac-container input:checked ~ article{
-	-webkit-transition: height 0.5s ease-in-out;
-	-moz-transition: height 0.5s ease-in-out;
-	-o-transition: height 0.5s ease-in-out;
-	-ms-transition: height 0.5s ease-in-out;
-	transition: height 0.5s ease-in-out;
-}
-.ac-container input:checked ~ article.ac-small{
-	height: 140px;
-}
-.ac-container input:checked ~ article.ac-medium{
-	height: 180px;
-}
-.ac-container input:checked ~ article.ac-large{
-	height: 230px;
-}
-.contactCallout {
-    clear: both;
-    text-align: center;
-    margin: 0 auto;
-    background: url(images/img/keyboard.jpg) center no-repeat;
-    background-size: cover;
-    height: 200px;
-    opacity: 0.75;
-    position: relative;
-}
-.contactCallout .button {
-    float: none;
-    opacity: 1.0;
-    color: #fff;
-    border: solid #fff 2px;
-}
-.contactCallout .button:hover {
-    color: #FF6600;
-    border: solid #FF6600 2px;
-}
-.fixit {
-    padding-top: 90px;
-    vertical-align: middle;
-}
+
 /*----------------------------------------
     SERVICES PAGE
 ----------------------------------------*/
@@ -500,7 +368,9 @@ nav ul li:hover {
 .phx img {
     height: 210px;
     float: left;
-    padding: 0 50px 15px;
+    padding: 0 0 15px;
+}
+    
 .ac-container label{
 	position: relative;
 	z-index: 20;
@@ -607,6 +477,25 @@ nav ul li:hover {
     -webkit-transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out;
 }
+
+/*----------------------------------------
+    OurWorkPage
+----------------------------------------*/
+
+.ourWorkTop {
+    text-align:center;
+}
+
+.ourWorkTop figure {
+    position:relative;
+    display:inline-block;
+}
+
+.ourWorkTop figure img {
+    position:relative;
+    height:100px;
+}
+
 /*----------------------------------------
     CONTACT
 ----------------------------------------*/

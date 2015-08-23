@@ -45,6 +45,28 @@
             </div>
         </div>
     </div>
+	<div id="navbar">
+		<div id="top"></div>
+		<div class="container">
+			<div id="headerContainer">
+				<div id="logo">
+                    <a href="index.html">
+                        <h1>Code <span class='orange'>Dive</span></h1>
+                    </a>
+				</div>
+				<nav class="group">
+					<ul>
+						<li><a data-scroll href='#contact'>Contact</a></li>
+						<li><a data-scroll href='#OurWork'>Our Work</a></li>
+						<li><a data-scroll href='#WhatWeDo'>Our Services</a></li>
+						<li><a data-scroll href='#whatWeDo'>About</a></li>
+						<li><a data-scroll href='#home'><span class='fa fa-arrow-up'></span></a></li>
+					</ul>
+				</nav>
+				
+			</div>
+		</div>
+	</div>
 </header>
     <a data-scroll class="topLink hide" href='#home'>Back to Top</a>
 
@@ -73,13 +95,13 @@
                     </div>
                 </div>
                 <div>
-                    <img u="image" src2="images/img/1920/red.jpg" />
+                    <img u="image" src2="images/img/1920/red2.jpg" />
                 </div>
                 <div>
-                    <img u="image" src2="images/img/1920/purple.jpg" />
+                    <img u="image" src2="images/img/1920/purple2.jpg" />
                 </div>
                 <div>
-                    <img u="image" src2="images/img/1920/blue.jpg" />
+                    <img u="image" src2="images/img/1920/blue2.jpg" />
                 </div>
             </div>
             <!-- indicators container -->
@@ -95,7 +117,7 @@
         </div> <!-- end slider container -->
         <!-- Jssor Slider End -->
     </div> <!-- end #banner -->
-    <div class='arrow-down-dark'></div><!--<div class='thang group'></div>-->
+    <div class='arrow-down-dark'><img src="images/img/1920/white-arrow-hole.jpg"</div><!--<div class='thang group'></div>-->
 <main id="content">
     <section class="container">
         <div id="whatWeDo">
@@ -114,11 +136,11 @@
             <div id="WhatWeDo" class='group'>
                 <div class='services group'>
                     <h2>Our Services</h2>
-                    <!-- Arrow Left -->
+                    <!-- Arrow Left 
                     <span class="servicesArrowLeft sliderArrows">
                         <img src="/images/img/home/left-arrow-small.png">
                     </span>
-                    <!-- Arrow Right -->
+                     Arrow Right -->
                     <span class="servicesArrowRight sliderArrows">
                         <img src="/images/img/home/right-arrow-small.png">
                     </span>
@@ -164,12 +186,7 @@
                 <a href=""><img src="images/img/samples/" alt="" height="225px" width="225px"></img></a>
                 <a href=""><img src="images/img/samples/" alt="" height="225px" width="225px"></img></a>
                 <a href=""><img src="images/img/samples/" alt="" height="225px" width="225px"></img></a>
-                <a href=""><img src="images/img/samples/" alt="" height="225px" width="225px"></img></a>
-                <a href=""><img src="images/img/samples/" alt="" height="225px" width="225px"></img></a>
-                <a href=""><img src="images/img/samples/" alt="" height="225px" width="225px"></img></a>
-                <a href=""><img src="images/img/samples/" alt="" height="225px" width="225px"></img></a>
-                <a href=""><img src="images/img/samples/" alt="" height="225px" width="225px"></img></a>
-            </div>
+                <a href=""><img src="images/img/samples/" alt="" height="225px" width="225px"></img></a>                            </div>
             <a href='#' class='button'>See More <span class='fa fa-chevron-right'></span></a>
         </div>
     </section>
@@ -203,7 +220,9 @@
             </div> <!-- end #contact -->
         </section> <!-- end .container -->
     </div> <!-- end .bg -->
+<<<<<<< HEAD
 </main> <!-- end #content -->
+=======
 	<div class="container">
 		<div id="whatWeDo">
 			<h2>Who We Are</h2>
@@ -341,25 +360,26 @@
         
             windowSizeCheck();
             //Check viewport size and respond properly            
-            
+          /*  
             $(".sliderArrows").click(function () {
             //Slider code
             
                 var sliderSpeed = 500;
                 //Set the slider speed in milliseconds
 
-                $(".manualSlider .serv").each(function(){
-                   $(this).animate({right: "+=100"}, sliderSpeed); 
-                });
-                //The actual sliding of the sections
-                
-                setTimeout(function(){ 
-                    $(".manualSlider .serv:eq(0)").remove().appendTo(".manualSlider").css("right", "0px");
-                }, sliderSpeed);
+                //$(".manualSlider .serv").each(function(){
+                   $(".manualSlider .serv:eq(0)").animate({width: "0"}, sliderSpeed, function(){ 
+                    //boom();
+                    });
+                //});
                 //pushes the first item to the end
+                function boom(){
+                    $(".manualSlider .serv:eq(0)").remove().appendTo(".manualSlider");
+                    $(".manualSlider .serv").css("right", "0px");
+                }
 
             });
-            
+            */
         });
         
         $(window).resize(function(){
@@ -398,7 +418,7 @@
                 //$SlideWidth: 600,                                 //[Optional] Width of every slide in pixels, default value is width of 'slides' container
                 //$SlideHeight: 300,                                //[Optional] Height of every slide in pixels, default value is height of 'slides' container
                 $SlideSpacing: 0,                                     //[Optional] Space between each slide in pixels, default value is 0
-                $DisplayPieces: 1,                                   //[Optional] Number of pieces to display (the slideshow would be disabled if the value is set to greater than 1), the default value is 1
+                $DisplayPieces: 1,                                  //[Optional] Number of pieces to display (the slideshow would be disabled if the value is set to greater than 1), the default value is 1
                 $ParkingPosition: 0,                                //[Optional] The offset position to park slide (this options applys only when slideshow disabled), default value is 0.
                 $UISearchMode: 1,                                   //[Optional] The way (0 parellel, 1 recursive, default value is 1) to search UI components (slides container, loading screen, navigator container, arrow navigator container, thumbnail navigator container etc).
                 $PlayOrientation: 1,                                //[Optional] Orientation to play slide (for auto play, navigation), 1 horizental, 2 vertical, 5 horizental reverse, 6 vertical reverse, default value is 1

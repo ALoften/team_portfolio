@@ -313,12 +313,10 @@ nav ul li:hover {
     text-align: center;
 }
 .serv {
-    position:relative;
     width: 23%;
     min-width:150px;
     display:inline-block;
-    padding: 0.8%;
-    overflow:hidden;
+    padding: 0.8%
 }
 .phx img {
 	width: 18%;

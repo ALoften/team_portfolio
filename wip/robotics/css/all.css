@@ -1,0 +1,152 @@
+/* ----- GLOBALS ----- */
+
+.header {
+    position:relative;
+    width:100%;
+    background-color:chocolate;
+    float:left;
+    text-align:center;
+}
+
+.headerLogo {
+    float:left;
+}
+
+.headerMenu {
+    position:relative;
+    left:-46px;
+    z-index:1;
+    text-align:center;
+}
+    
+.header .sideList {
+    color:white;
+    font-family: fantasy;
+    font-size: 20px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+    
+.headerMenu, .searchBox {
+    margin-top:20px;
+}
+
+.footer {
+    position:relative;
+    width:100%;
+    float:left;
+    text-align:center;
+}
+
+.searchBox {
+    position:relative;
+    margin-right:20px;
+    float:right;
+    z-index:1;
+}
+
+input[type=search] {
+    color: gray;
+    text-align: right;
+    cursor: pointer;
+    display: block; 
+    width: 100%;
+    letter-spacing: 4px;
+    text-shadow: 0 0 2px black;
+    word-spacing: 20px;
+}
+    
+.logoIcon img {
+    height:110px;
+}
+    
+.logoIcon {
+    position:relative;
+    z-index:1;
+}
+
+.headerBGColorSplit {
+    position: absolute;
+    top: 0px;
+    height: 60%;
+    box-sizing: border-box;
+    background-color: black;
+    width: 100%;
+    border-bottom: 4px solid white;
+}
+
+/* ----- END GLOBALS ----- */
+
+
+/* ----- */
+
+
+/* ----- HOME PAGE ----- */
+
+.newSection {
+    position:relative;
+    padding:20px;
+    box-sizing:border-box;
+    z-index: 0;
+}
+    
+.newSection:nth-child(2) {
+    background-color:wheat;
+}
+    
+.newSection:nth-child(3) {
+    background-color:white;
+}
+    
+.newSection .title {
+    height: 100px;
+    width: 100%;
+    line-height: 60px;
+/*    background-image: url();*/
+    background-size: 80px 60px;
+    background-repeat: no-repeat;
+/*    background-attachment: fixed;*/
+    background-position: left; 
+}
+    
+.gearIcon {
+    position: absolute;
+    top: 137px;
+    margin-left: 11%;
+    margin-right: -100%;
+    z-index: -1;
+}
+
+.gearIcon img {
+    height: 200px;
+}
+
+/* ----- END HOME PAGE ----- */
+
+
+/* ----- */
+
+
+/* ----- SHARED ----- */
+
+.sideBar {
+    position:fixed;
+    right:0px;
+    width:14%;
+    min-width:110px;
+    float:right; 
+    text-align:center;
+    background-color: white;
+    border-left: 1px solid silver;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.mainContainer {
+    width:100%; 
+/*    min-width:440px; */
+    float:left;
+    text-align:center;
+}
+
+/* ----- END SHARED ----- */

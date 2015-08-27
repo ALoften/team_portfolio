@@ -281,7 +281,7 @@ nav ul li:hover {
     height: auto;
     text-align: center;
 }
-#bannerLeft img {
+#bannerLeft img, #bannerLeft p {
     width: 50%;
     height: auto;
 }
@@ -511,18 +511,25 @@ input:focus {
       padding-bottom: 3em;
 }
 #contactForm {
-    width: 70%; /* 50px */
-    float: left;
-    box-sizing:border-box;
-    padding-right:14px;
+	width: 70%; /* 50px */
+	margin: 0 auto;
 }
-#name, #email, #comment{
-    width: 96%;
-    border-radius: 2px;
-    background-color: #fff;
-    border: solid 1px #FF6600;
-    margin: 5px;
+#name, #email, #comment, #business, #services {
+	width: 96%;
+	border-radius: 2px;
+	background-color: #fff;
+	border: solid 1px #FF6600;
+	margin: 5px;
+    height: 40px;
 }
+#business, #services {
+    width: 47%;
+}
+#services {
+    height: 51px;
+    padding: 5px;
+    font-size: 1em;
+	font-family: sans-serif;
 #name, #email {
     height: 40px;
 }

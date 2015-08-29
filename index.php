@@ -131,10 +131,10 @@ include '/global/header.html';
                         }
                         > -->
                         <form method='post' action='index.php'>
-                            <input id='name' name='name' type='text' placeholder='Name*' required/>
-                            <input id='email' name='email' type='text' placeholder='Email*' required/>
-                            <input id='business' name='business' type='text' placeholder='Business Name' />
-                            <select id="services" name="service">
+                            <input id='nameField' name='name' type='text' placeholder='Name*' required/>
+                            <input id='emailField' name='email' type='text' placeholder='Email*' required/>
+                            <input id='businessField' name='business' type='text' placeholder='Business Name' />
+                            <select id="servicesField" name="service">
                                 <option value="Select">Select a Service</option>
                                 <option value="BasicWeb">Basic Web Layout</option>
                                 <option value="Responsive">Responsive Website</option>
@@ -144,7 +144,7 @@ include '/global/header.html';
                                 <option value="E-Commerce">E-Commerce</option>
                                 <option value="Multiple">Multiple Services</option>
                             </select>
-                            <textarea id='comment' name='comment' rows='5' cols='10' placeholder='Message*' required ></textarea><br />
+                            <textarea id='commentField' name='comment' rows='5' cols='10' placeholder='Message*' required ></textarea><br />
                             <input type="submit" name="Submit" value="Send Message" class='button'/>
                         </form>
                     </div> <!-- end #contactForm 

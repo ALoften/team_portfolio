@@ -514,7 +514,7 @@ input:focus {
 	width: 70%; /* 50px */
 	margin: 0 auto;
 }
-#name, #email, #comment, #business, #services {
+#nameField, #emailField, #commentField, #businessField, #servicesField {
 	width: 96%;
 	border-radius: 2px;
 	background-color: #fff;
@@ -522,15 +522,26 @@ input:focus {
 	margin: 5px;
     height: 40px;
 }
-#business, #services {
-    width: 47%;
+@media screen and (min-width: 600px) {
+    #businessField, #servicesField {
+        width: 47%;
+        box-sizing:border-box;
+    }
+    #servicesField {
+        margin-right:0px;
+    }
+    #businessField {
+        margin-left:0px;
+    }
 }
-#services {
+#servicesField {
     height: 51px;
     padding: 5px;
     font-size: 1em;
 	font-family: sans-serif;
-#name, #email {
+}
+    
+#nameField, #emailField {
     height: 40px;
 }
 #comment {

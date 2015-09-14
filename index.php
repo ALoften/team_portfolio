@@ -138,9 +138,8 @@ include '/global/header.html';
                                         
                     </div>
 					
-					<div class="homeServicesButton">
-                        <a href='services.html' class='button'>Learn More <span class='fa fa-chevron-right'></span></a>
-                    </div>
+					<a href='services.html' class='button'>Learn More <span class='fa fa-chevron-right'></span></a>
+                    
 				</div><!-- end #services -->
 			</div> <!-- end #WhatWeDo -->
 		</div> <!-- end .container -->

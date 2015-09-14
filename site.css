@@ -156,6 +156,46 @@ a:hover img {
     position: relative;
     text-align: center;
 }
+
+.sliderButton {
+    position:absolute;
+}
+
+.sliderButton.back {
+    left:0px;
+}
+
+.sliderButton.next {
+    right:0px;
+}
+
+.sliderOuterContainer {
+    width:940px;
+    min-width:210px;
+    position:relative;
+    margin-left:auto;
+    margin-right:auto;
+    white-space:nowrap;
+   overflow:hidden;
+}
+
+.sliderInnerContainer {
+    position:relative;
+/*    left:-230px;*/
+}
+
+.sliderCarouselItem {
+    height:100px;
+/*    width:210px;*/
+/*    background-color:blue;*/
+    margin-left:10px;
+    margin-right:10px;
+    margin-bottom: 0px;
+    display:inline-block;
+    color:white;
+}
+
+
 /*----------------------------------------
     HEADER PAGE STYLES
 ----------------------------------------*/
@@ -313,14 +353,41 @@ nav ul li:hover {
 .services {
     text-align: center;
 }
+
+.services .button{
+    margin-top: 0px;
+}
+
 .serv {
-    width: 200px;
+    width: 232px;
     min-width:150px;
     display:inline-block;
     padding: 0.8%;
-    margin-left:10px;
-    margin-right:10px;
+    margin-left:0px;
+    margin-right:0px;
     box-sizing:border-box;
+    vertical-align:text-top;
+    height:100%;
+    text-align:center;
+}
+
+.serv p {
+    width: 200px;
+    margin-left:auto;
+    margin-right:auto;
+    white-space: normal;
+}
+
+.homeServicesButton {
+margin-right:14%;
+}
+
+.workspots {
+    width: 225px;
+}
+
+.workspots p {
+    white-space:normal;
 }
 
 /*----------------------------------------
@@ -369,6 +436,8 @@ nav ul li:hover {
     height: 210px;
     float: left;
     padding: 0 0 15px;
+    margin-right: 10px;
+    margin-bottom: 10px;
 }
     
 .ac-container label{
@@ -528,10 +597,10 @@ input:focus {
         box-sizing:border-box;
     }
     #servicesField {
-        margin-right:0px;
+        margin-left:10px;
     }
     #businessField {
-        margin-left:0px;
+        margin-right:10px;
     }
 }
 #servicesField {
@@ -645,6 +714,34 @@ footer a:hover {
     TABLET - PORTRAINT or LANDSCAPE
 ----------------------------------------*/
 @media only screen and (max-width: 979px) {
+}
+
+@media only screen and (max-width: 966px) {
+    .sliderOuterContainer {
+        width: 712px;
+    }
+}
+
+@media only screen and (max-width: 855px) {
+    .sliderOuterContainer {
+        width: 488px;
+    }
+    
+    #OurWork > a {
+        width:100%;
+        box-sizing:border-box;
+        text-align:center;
+    }
+    
+    .services .button {
+        width:100%;
+    }
+}
+
+@media only screen and (max-width: 660px) {
+    .sliderOuterContainer {
+        width: 235px;
+    }
 }
 
 /*----------------------------------------

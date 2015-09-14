@@ -63,59 +63,161 @@ include '/global/header.html';
 			<p>Both born and raised in the midwest, we traded our small town lives for big city dreams and ventured to Phoenix, Arizona. When our career paths crossed after joining the Quality Assurance team at LaneTerralever, we decided to put our heads together and build high-quality, user friendly websites for small businesses across the valley. Both having a background in development and quality assurance, our goal is to provide our clients with high-quality, functional websites that help their business thrive without breaking the bank. Let's chat about what we might be able to do for you and your business. And some other cool shit.</p>
 		</div>
 	</div><!-- end .container -->
+    <div class="clear">
+    </div>
     <div class='arrow-down'></div>
 	<div class='bg'>
-		<div class="container">
+		<div class="">
 			<div id="WhatWeDo" class='group'>
 				<div class='services group'>
 					<h2>Our Services</h2>
-					<div class='serv'>
-						<a href='services.html#BasicWebLayouts'>
-							<img src='images/img/web-layouts.png' alt='something' />
-							<h3>Basic Web Layouts</h3>
-						</a>
-						<p>Basic web development to get your business out there. </p>
-					</div>
-					<div class='serv'>
-						<a href='services.html#ResponsiveWebsites'>
-							<img src='images/img/responsive-websites.png' alt='something' />
-							<h3>Responsive Websites</h3>
-						</a>
-						<p>'Mobile First' design allows you to reach your clients without worying about platform or device.</p>
-					</div>
-					<div class='serv'>
-						<a href='services.html#WPDevelopment'>
-							<img src='images/img/wordpress-dev.png' alt='something' />
-							<h3>WP Development</h3>
-						</a>
-						<p>Update your website with ease using Wordpress, one of the most user-friendly content management systems available.</p>
-					</div>
-					<div class='serv'>
-						<a href='services.html#GoogleAnalytics'>
-							<img src='images/img/google-analytics.png' alt='something' />
-							<h3>Google Analytics</h3>
-						</a>
-						<p>Track and analyze how users are finding, interacting, and accessing your website and see what you could be doing better. </p>
-					</div>
-					<a href='services.html' class='button'>Learn More <span class='fa fa-chevron-right'></span></a>
+                    
+                    <div class="sliderButton back servicesArrowLeft sliderArrows">
+                        <img src="/images/img/home/left-arrow-small2.png">
+                   
+                    </div>
+
+
+                    <div class="sliderOuterContainer">
+                        <div class="sliderInnerContainer">
+                            
+                            <figure class="sliderCarouselItem serv">
+                                <a href='services.html#BasicWebLayouts'>
+                                    <img src='images/img/web-layouts.png' alt='something' />
+                                    <h3>Basic Web Layouts</h3>
+                                </a>
+                                <p>Basic web development to get your business out there. </p>
+                            </figure>
+                            
+                            <figure class="sliderCarouselItem serv">
+                                <a href='services.html#ResponsiveWebsites'>
+                                    <img src='images/img/responsive-websites.png' alt='something' />
+                                    <h3>Responsive Websites</h3>
+                                </a>
+                                <p>'Mobile First' design allows you to reach your clients without worying about platform or device.</p>
+                            </figure>
+
+                            <figure class="sliderCarouselItem serv">
+                                <a href='services.html#WPDevelopment'>
+                                    <img src='images/img/wordpress-dev.png' alt='something' />
+                                    <h3>WP Development</h3>
+                                </a>
+                                <p>Update your website with ease using Wordpress, one of the most user-friendly content management systems available.</p>
+                            </figure>
+                            
+                            <figure class="sliderCarouselItem serv">
+                                <a href='services.html#GoogleAnalytics'>
+                                    <img src='images/img/google-analytics.png' alt='something' />
+                                    <h3>Google Analytics</h3>
+                                </a>
+                                <p>Track and analyze how users are finding, interacting, and accessing your website and see what you could be doing better. </p>
+                            </figure>
+                            
+                            <figure class="sliderCarouselItem serv">
+                                <a href='services.html#GoogleAnalytics'>
+                                    <img src='images/img/google-analytics.png' alt='something' />
+                                    <h3>Google Analytics</h3>
+                                </a>
+                                <p>Track and analyze how users are finding, interacting, and accessing your website and see what you could be doing better. </p>
+                            </figure>
+
+                            <figure class="sliderCarouselItem serv">
+                                <a href='services.html#GoogleAnalytics'>
+                                    <img src='images/img/google-analytics.png' alt='something' />
+                                    <h3>Google Analytics</h3>
+                                </a>
+                                <p>Track and analyze how users are finding, interacting, and accessing your website and see what you could be doing better. </p>
+                            </figure>
+                            
+                        </div>    
+                    </div>
+
+                    <div class="sliderButton next servicesArrowRight sliderArrows">
+
+                        <img src="/images/img/home/right-arrow-small2.png">
+                                        
+                    </div>
+					
+					<div class="homeServicesButton">
+                        <a href='services.html' class='button'>Learn More <span class='fa fa-chevron-right'></span></a>
+                    </div>
 				</div><!-- end #services -->
 			</div> <!-- end #WhatWeDo -->
 		</div> <!-- end .container -->
 	</div> <!-- end .bg -->
-	<div class="container">
+	<div class="">
 		<div id="OurWork" class='group'>
 			<h2>Our Work</h2>
-			<div class="samples">
-				<a href=""><img src="images/img/samples/" alt="" height="225px" width="225px"></img></a>
-				<a href=""><img src="images/img/samples/" alt="" height="225px" width="225px"></img></a>
-				<a href=""><img src="images/img/samples/" alt="" height="225px" width="225px"></img></a>
-				<a href=""><img src="images/img/samples/" alt="" height="225px" width="225px"></img></a>
-				<a href=""><img src="images/img/samples/" alt="" height="225px" width="225px"></img></a>
-				<a href=""><img src="images/img/samples/" alt="" height="225px" width="225px"></img></a>
-				<a href=""><img src="images/img/samples/" alt="" height="225px" width="225px"></img></a>
-				<a href=""><img src="images/img/samples/" alt="" height="225px" width="225px"></img></a>
-				<a href='#' class='button'>See More <span class='fa fa-chevron-right'></span></a>
+			
+            
+            
+            
+            
+            <div class="sliderButton back sliderArrows">
+                        <img src="/images/img/home/left-arrow-small2.png">
+                   
+                    </div>
+
+
+                    <div class="sliderOuterContainer">
+                        <div class="sliderInnerContainer">
+                            
+                            <figure class="sliderCarouselItem workspots">
+                                <a href=""><img src="images/img/samples/" alt="" height="225px" width="225px"></a>
+                                <p>'Mobile First' design allows you to reach your clients without worying about platform or device.</p>
+                            </figure>
+                            
+                            <figure class="sliderCarouselItem workspots">
+                                <a href=""><img src="images/img/samples/" alt="" height="225px" width="225px"></a>
+                                <p>'Mobile First' design allows you to reach your clients without worying about platform or device.</p>
+                            </figure>
+                            
+                            <figure class="sliderCarouselItem workspots">
+                                <a href=""><img src="images/img/samples/" alt="" height="225px" width="225px"></a>
+                                <p>'Mobile First' design allows you to reach your clients without worying about platform or device.</p>
+                            </figure>
+                            
+                            <figure class="sliderCarouselItem workspots">
+                                <a href=""><img src="images/img/samples/" alt="" height="225px" width="225px"></a>
+                                <p>'Mobile First' design allows you to reach your clients without worying about platform or device.</p>
+                            </figure>
+                            
+                            <figure class="sliderCarouselItem workspots">
+                                <a href=""><img src="images/img/samples/" alt="" height="225px" width="225px"></a>
+                                <p>'Mobile First' design allows you to reach your clients without worying about platform or device.</p>
+                            </figure>
+                            
+                            <figure class="sliderCarouselItem workspots">
+                                <a href=""><img src="images/img/samples/" alt="" height="225px" width="225px"></a>
+                                <p>'Mobile First' design allows you to reach your clients without worying about platform or device.</p>
+                            </figure>
+                            
+                            <figure class="sliderCarouselItem workspots">
+                                <a href=""><img src="images/img/samples/" alt="" height="225px" width="225px"></a>
+                                <p>'Mobile First' design allows you to reach your clients without worying about platform or device.</p>
+                            </figure>
+                            
+                            <figure class="sliderCarouselItem workspots">
+                                <a href=""><img src="images/img/samples/" alt="" height="225px" width="225px"></a>
+                                <p>'Mobile First' design allows you to reach your clients without worying about platform or device.</p>
+                            </figure>
+                            
+                            
+                            
+                        </div>    
+                    </div>
+
+                    <div class="sliderButton next servicesArrowRight sliderArrows">
+
+                        <img src="/images/img/home/right-arrow-small2.png">
+                                        
+                    </div>
+            
+            
+            
+            <div class="samples">
 			</div>
+            <a href='#' class='button'>See More <span class='fa fa-chevron-right'></span></a>
 		</div>
 	</div>
         <div class='arrow-down'></div>

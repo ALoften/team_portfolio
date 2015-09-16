@@ -169,8 +169,16 @@ a:hover img {
     right:0px;
 }
 
-.sliderOuterContainer {
+.servicesSlider {
     width:940px;
+}
+
+.workSlider {
+    width:1068px;
+}
+
+.sliderOuterContainer {
+/*    width:90%; */
     min-width:210px;
     position:relative;
     margin-left:auto;
@@ -383,7 +391,7 @@ margin-right:14%;
 }
 
 .workspots {
-    width: 225px;
+    width: 240px;
 }
 
 .workspots p {
@@ -716,9 +724,22 @@ footer a:hover {
 @media only screen and (max-width: 979px) {
 }
 
-@media only screen and (max-width: 966px) {
-    .sliderOuterContainer {
+@media only screen and (max-width: 1050px) {
+    .servicesSlider {
         width: 712px;
+    }
+    
+    .workSlider {
+        width:812px;
+    }
+    
+    .workSlider .sliderInnerContainer {
+    }
+}
+
+@media only screen and (max-width: 920px) {
+    .workSlider {
+        width:546px;
     }
 }
 
@@ -726,6 +747,8 @@ footer a:hover {
     .sliderOuterContainer {
         width: 488px;
     }
+    
+    
     
     #OurWork > a {
         width:100%;

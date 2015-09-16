@@ -78,7 +78,7 @@ include '/global/header.html';
                     </div>
 
 
-                    <div class="sliderOuterContainer">
+                    <div class="sliderOuterContainer servicesSlider">
                         <div class="sliderInnerContainer">
                             
                             <figure class="sliderCarouselItem serv">
@@ -105,22 +105,6 @@ include '/global/header.html';
                                 <p>Update your website with ease using Wordpress, one of the most user-friendly content management systems available.</p>
                             </figure>
                             
-                            <figure class="sliderCarouselItem serv">
-                                <a href='services.html#GoogleAnalytics'>
-                                    <img src='images/img/google-analytics.png' alt='something' />
-                                    <h3>Google Analytics</h3>
-                                </a>
-                                <p>Track and analyze how users are finding, interacting, and accessing your website and see what you could be doing better. </p>
-                            </figure>
-                            
-                            <figure class="sliderCarouselItem serv">
-                                <a href='services.html#GoogleAnalytics'>
-                                    <img src='images/img/google-analytics.png' alt='something' />
-                                    <h3>Google Analytics</h3>
-                                </a>
-                                <p>Track and analyze how users are finding, interacting, and accessing your website and see what you could be doing better. </p>
-                            </figure>
-
                             <figure class="sliderCarouselItem serv">
                                 <a href='services.html#GoogleAnalytics'>
                                     <img src='images/img/google-analytics.png' alt='something' />
@@ -158,7 +142,7 @@ include '/global/header.html';
                     </div>
 
 
-                    <div class="sliderOuterContainer">
+                    <div class="sliderOuterContainer workSlider">
                         <div class="sliderInnerContainer">
                             
                             <figure class="sliderCarouselItem workspots">
@@ -180,28 +164,6 @@ include '/global/header.html';
                                 <a href=""><img src="images/img/samples/" alt="" height="225px" width="225px"></a>
                                 <p>'Mobile First' design allows you to reach your clients without worying about platform or device.</p>
                             </figure>
-                            
-                            <figure class="sliderCarouselItem workspots">
-                                <a href=""><img src="images/img/samples/" alt="" height="225px" width="225px"></a>
-                                <p>'Mobile First' design allows you to reach your clients without worying about platform or device.</p>
-                            </figure>
-                            
-                            <figure class="sliderCarouselItem workspots">
-                                <a href=""><img src="images/img/samples/" alt="" height="225px" width="225px"></a>
-                                <p>'Mobile First' design allows you to reach your clients without worying about platform or device.</p>
-                            </figure>
-                            
-                            <figure class="sliderCarouselItem workspots">
-                                <a href=""><img src="images/img/samples/" alt="" height="225px" width="225px"></a>
-                                <p>'Mobile First' design allows you to reach your clients without worying about platform or device.</p>
-                            </figure>
-                            
-                            <figure class="sliderCarouselItem workspots">
-                                <a href=""><img src="images/img/samples/" alt="" height="225px" width="225px"></a>
-                                <p>'Mobile First' design allows you to reach your clients without worying about platform or device.</p>
-                            </figure>
-                            
-                            
                             
                         </div>    
                     </div>
